@@ -62,5 +62,6 @@ Hotkeys
 * **2** - /ann Parking in Rotterdam or at Europoort is not allowed!{enter}
 * **3** - /ann Please keep your lights on between 19:00 and 7:00. Ghost driving is not allowed!{enter}
 * **`** - Current time
+
 > NOTE: This is a buttons in the upper part of the keyboard, not a Num keys.
 > NOTE: {enter} means that string will be sended immediately after execution.
