@@ -19,7 +19,7 @@
 This script can make your admin life a little bit easier (like my [TMP site scripts](https://forum.truckersmp.com/index.php?/topic/26484-userscripts-for-truckersmp-site-updated-090316/), but in-game!)
 * Quick justice with *{word}** or *{word}/*
 * Quick announcements with *Ctrl+Shift+{key}*
- 
+
 ### Usage
 Hotswitches
 * Open in-game chat (by Y, if you don't remember)
@@ -33,7 +33,7 @@ Hotkeys
 * If it is /ann hotkey, it will be auto-magically sends in world
 * In other cases you will see new string in chat
 
- ---
+---
 ### Okay, what you can do for now?
 > Word with asterisk "\*" equals "Reason + Time" (ins* -> Insulting t16:28:01).
 > Word with dash "/" equals "Reason" (ins/ -> Insulting).
