@@ -24,7 +24,7 @@ Adding() {
     FormatTime, CurrentTime, T8, hh:mm:ss
     return "t" + CurrentTime
 }
-^+`::
+^+=::
     AddingText := Adding()
     Send %AddingText%
 return
