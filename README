@@ -1,6 +1,11 @@
 # TruckersMP UltimateMacro
 *by [CJMAXiK](https://forum.truckersmp.com/index.php?/profile/1223-cjmaxik/)* 
 
+### WTH IS IT???
+This script can make your admin life a little bit easier (like my [TMP site scripts](https://forum.truckersmp.com/index.php?/topic/26484-userscripts-for-truckersmp-site-updated-090316/), but in-game!)
+* Quick justice with *{word}** or *{word}/*
+* Quick announcements with *Ctrl+Shift+{key}*
+
 > Feedback? No problem! Check [this forum page](https://forum.truckersmp.com/index.php?/topic/30058-macros-for-in-game-admins/).
 
 ---
@@ -15,11 +20,6 @@
 2. Right-click on **TruckersMP_UltimateMacro.ahk** and click **Edit Script**
 
 ---
-### WTH IS IT???
-This script can make your admin life a little bit easier (like my [TMP site scripts](https://forum.truckersmp.com/index.php?/topic/26484-userscripts-for-truckersmp-site-updated-090316/), but in-game!)
-* Quick justice with *{word}** or *{word}/*
-* Quick announcements with *Ctrl+Shift+{key}*
-
 ### Usage
 Hotswitches
 * Open in-game chat (by Y, if you don't remember)
