@@ -37,6 +37,8 @@ return
 ^+2::Send /ann Parking in Rotterdam or at Europoort is not allowed{!}{enter}
 ^+3::Send /ann Please keep your lights on between 19:00 and 7:00. Ghost driving is not allowed{!}{enter}
 ^+4::Send /ann Playing music in CB Radio is not allowed{!}{enter}
+^+5::Send /ann Using a trailer with your Scout car is against the rules{!}{enter}
+^+6::Send /ann Driving in Europoort with your Scout car is against the rules{!}{enter}
 
 /*
  *  HOTSWITCHES in both variants
@@ -93,7 +95,7 @@ return
     AddingText := Adding()
     Send Change your Steam name and make a ban appeal %AddingText%
 return
-::nick/::Change your Steam name and make a ban appeal 
+::nick/::Change your Steam name
 
 /*
  *  HOTSWITCHES w/o adding only
