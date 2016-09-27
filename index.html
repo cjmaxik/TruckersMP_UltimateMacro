@@ -17,19 +17,15 @@
         <header>
             <h1>TruckersMP UltimateMacro</h1>
             <p>Only for TruckersMP Admins</p>
-            <img src="https://forum.truckersmp.com/uploads/monthly_2016_02/truckersmp-logo_409x100.png.001bed10fbe6565eab2ca8c211e228a1.png">
+            <img src="http://truckersmp.com/assets/img/truckersmp-logo.png">
 
             <ul>
                 <li>
-                    <a href="https://github.com/cjmaxik/TruckersMP_UltimateMacro/zipball/master">Download <strong>NOW</strong></a>
+                    <a href="https://github.com/cjmaxik/TruckersMP_UltimateMacro/releases" target="_blank">Download last release <strong><img src="https://img.shields.io/github/tag/cjmaxik/TruckersMP_UltimateMacro.svg?maxAge=2592000"></strong></a>
                 </li>
 
                 <li>
-                    <a href="https://github.com/cjmaxik/TruckersMP_UltimateMacro" target="_blank">Last Update <strong><img src="https://img.shields.io/github/release/cjmaxik/TruckersMP_UltimateMacro.svg?maxAge=2592000"></strong></a>
-                </li>
-
-                <li>
-                    <a href="https://forum.truckersmp.com/index.php?/topic/30058-truckersmp-ultimatemacro-macros-for-in-game-admins/" target="_blank">Post On <strong>Forum</strong></a>
+                    <a href="https://forum.truckersmp.com/index.php?/topic/30058-truckersmp-ultimatemacro-macros-for-in-game-admins/" target="_blank">Check out topic on <strong>Forum</strong></a>
                 </li>
             </ul>
         </header>
@@ -53,6 +49,8 @@
                 <li>Quick justice with <em>{word}</em>* or <em>{word}/</em></li>
 
                 <li>Quick announcements with <em>Ctrl+Shift+{key}</em></li>
+
+                <li><b>NEW:</b> Using left part of keyboard instead of Numpad!</li>
             </ul>
 
 
@@ -72,9 +70,13 @@
                 <li>Download and unzip in any place <a href="https://github.com/cjmaxik/TruckersMP_UltimateMacro/archive/master.zip"><strong>this repository</strong></a>
                 </li>
 
+                <li>Check if you current keyboard locale is EN</li>
+
                 <li>Double-click <strong>TruckersMP_UltimateMacro.ahk</strong></li>
 
-                <li>Check that <strong>Green H</strong> <img src="http://take.ms/vqs3z"> icon has appears in tray</li>
+                <li>Check if <strong>Green H</strong> icon has appears in tray</li>
+                <br>
+                <b>WARNING! This package use EN+RU language of /sann messages by default. If you don't agree with that, please proceed the "If you want to edit" section below and change messages.</b>
             </ol>
 
 
@@ -93,7 +95,7 @@
             <h3><a aria-hidden="true" class="anchor" href="#usage" id="usage"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h3>
 
 
-            <p>Hotswitches</p>
+            <p><b>Hotswitches</b></p>
             <ul>
                 <li>Open in-game chat (by Y, if you don't remember)</li>
 
@@ -105,82 +107,119 @@
             </ul>
 
 
-            <p>Hotkeys</p>
+            <p><b>Hotkeys</b></p>
             <ul>
-                <li>Open in-game chat (by Y, if you don't remember)</li>
+                <li>Check if your in-game chat is closed</li>
 
                 <li>Press Ctrl+Shift+{button} (like Ctrl+Shift+1)</li>
 
-                <li>If it is /ann hotkey, it will be auto-magically sends in world</li>
+                <li>If it is /sann hotkey, it will be auto-magically sends in world</li>
 
                 <li>In other cases you will see new string in chat</li>
             </ul>
 
-            <hr>
 
+            <p><b>Numpad on Left side of keyboard</b></p>
+            <ul>
+                <li>If you in a game, press <kbd>Ctrl+Shift</kbd> or <kbd>F17</kbd>. You will see a tray message "You cannot type in chat!" and ding sound.</li>
+
+                <li>
+                    Use this keys:
+                    <ul>
+                        <li>W for Numpad 8 (Forward)</li>
+                        <li>A for Numpad 4 (Back)</li>
+                        <li>S for Numpad 5 (Left)</li>
+                        <li>D for Numpad 6 (Right)</li>
+                        <li>E for Numpad 9 (Up)</li>
+                        <li>X for Numpad 3 (Down)</li>
+                        <li>F15 for open chat and paste "/k "</li>
+                        <li>F16 for open chat and paste "/b "</li>
+                    </ul>
+                </li>
+
+                <li>Press <kbd>Ctrl+Shift</kbd> or <kbd>F17</kbd> once again to change Left side state (w/ tray messages & sound)</li>
+
+                <li>
+                    If you press one of this buttons/keystrokes, chat Left side will be set to Normal forcely
+                    <ul>
+                        <li>y (for chat)</li>
+                        <li>` (for Console)</li>
+                        <li>Shift + Tab (for Steam overlay)</li>
+                        <li>Alt + Tab</li>
+                        <li>Esc</li>
+                        <li>Win</li>
+                    </ul>
+                </li>
+                <br>
+                <b>If you have any issues w/ this function, please re-open script.</b>
+            </ul>
+
+            <hr>
 
             <h3><a aria-hidden="true" class="anchor" href="#okay-what-you-can-do-for-now" id="okay-what-you-can-do-for-now"><span aria-hidden="true" class="octicon octicon-link"></span></a>Okay, what you can do for now?</h3>
             <blockquote>
-                <p>Word with asterisk * equals "Reason + Time" (ins* -&gt; Insulting t16:28:01).</p>
+                <p>Word with asterisk * equals "Reason + Time" (ins* -&gt; Insulting 20.09_16:28:01).</p>
 
                 <p>Word with dash / equals "Reason" (ins/ -&gt; Insulting).</p>
             </blockquote>
 
             <h5><a aria-hidden="true" class="anchor" href="#dual-hotswitches-can-use-in--and--form" id="dual-hotswitches-can-use-in--and--form"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dual Hotswitches (can be used in * and / form)</h5>
             <ul>
-                <li><strong>ram</strong> - Ramming</li>
 
-                <li><strong>blo</strong> - Blocking</li>
-
-                <li><strong>ww</strong> - Wrong Way</li>
-
+                <li><strong>horn</strong> - Horn Spamming</li>
+                <li><strong>rac</strong> - Racing</li>
+                <li><strong>ww</strong> - Incorrect Way</li>
                 <li><strong>pro</strong> - Profanity</li>
-
                 <li><strong>ins</strong> - Insulting</li>
-
-                <li><strong>gri</strong> - Griefing</li>
-
-                <li><strong>reck</strong> - Reckless</li>
-
-                <li><strong>off</strong> - Offensive language</li>
-
-                <li><strong>nick</strong> - Change your Steam name (+ "and make a ban appeal" for * variant)</li>
+                <li><strong>chat</strong> - Chat Spamming</li>
+                <li><strong>ram</strong> - Ramming</li>
+                <li><strong>blo</strong> - Blocking</li>
+                <li><strong>speed</strong> - 30 d Speedhacking (yep, with 1 month ban already)</li>
+                <li><strong>lights</strong> - Driving without lights</li>
+                <li><strong>map</strong> - Exiting map boundaries</li>
+                <li><strong>use</strong> - Useless traffic</li>
+                <li><strong>convoy</strong> - Inappropriate Convoy Management</li>
+                <li><strong>tro</strong> - Trolling</li>
+                <li><strong>cb</strong> - CB Abuse</li>
+                <li><strong>save</strong> - Excessive Save Editing (+ "change tuning to stock or you will be banned" for / variant)</li>
+                <li><strong>reck</strong> - Reckless Driving</li>
+                <li><strong>over</strong> - Incorrect Overtaking (or "You cannot park here" for / variant)</li>
+                <li><strong>ep</strong> - Overtaking at EP</li>
+                <li><strong>park</strong> - Inappropriate Parking</li>
+                <li><strong>nick</strong> - Change your Steam name (+ "and make a ban appeal" for * variant | + "or you will be banned" for / variant)</li>
+                <li><strong>tag</strong> - Change your In-game tag (+ "and make a ban appeal" for * variant | + "or you will be banned" for / variant)</li>
             </ul>
 
             <h5><a aria-hidden="true" class="anchor" href="#only--hotswitches" id="only--hotswitches"><span aria-hidden="true" class="octicon octicon-link"></span></a>Only / Hotswitches</h5>
             <ul>
-                <li><strong>tag</strong> - Change your In-game tag</li>
-
-                <li><strong>lights</strong> - Driving without lights</li>
+                <li><strong>next</strong> - <kbd> (next will be ban)</kbd> postfix</li>
             </ul>
 
 
             <h5><a aria-hidden="true" class="anchor" href="#only--hotswitches-1" id="only--hotswitches-1"><span aria-hidden="true" class="octicon octicon-link"></span></a>Only * Hotswitches</h5>
             <ul>
-                <li><strong>ep</strong> - Overtaking at EP</li>
+                <li><strong>car</strong> - 3 hrs Car with trailer</li>
+                <li><strong>admin</strong> - Impersonating Administration</li>
             </ul>
 
             <h5><a aria-hidden="true" class="anchor" href="#hotkeys-use-ctrlshiftbutton" id="hotkeys-use-ctrlshiftbutton"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hotkeys (use Ctrl+Shift+{Button})</h5>
             <ul>
-                <li><strong>1</strong> - /ann Overtaking in Europoort is not allowed!{enter}</li>
-
-                <li><strong>2</strong> - /ann Parking in Rotterdam or at Europoort is not allowed!{enter}</li>
-
-                <li><strong>3</strong> - /ann Please keep your lights on between 19:00 and 7:00. Ghost driving is not allowed!{enter}</li>
-
-                <li><strong>4</strong> - /ann Playing music in CB Radio is not allowed{!}{enter}</li>
-
-                <li><strong>5</strong> - /ann Using a trailer with your Scout car is against the rules{!}{enter}</li>
-
-                <li><strong>6</strong> - /ann Driving in Europoort with your Scout car is against the rules{!}{enter}</li>
-
+                <b>WARNING! This package use EN+RU language of /sann messages by default. If you don't agree with that, please proceed the "If you want to edit" section below and change messages.</b>
+                <br>
+                <br>
+                <li><strong>1</strong> - {Y}/sann [EN] Overtaking in Europoort is not allowed{!}{enter} + RUS variant</li>
+                <li><strong>2</strong> - {Y}/sann [EN] Parking or stopping in Europoort is not allowed{!}{enter} + RUS variant</li>
+                <li><strong>3</strong> - {Y}/sann [EN] Please keep your lights on between 19:00 and 7:00. Ghost driving is not allowed{!}{enter} + RUS variant</li>
+                <li><strong>4</strong> - {Y}/sann [EN] Playing music in CB Radio is not allowed{!}{enter} + RUS variant</li>
+                <li><strong>5</strong> - {Y}/sann [EN] Using a trailer with your Scout car is against the rules{!}{enter} + RUS variant</li>
+                <li><strong>6</strong> - {Y}/sann [EN] Welcome to TruckersMP{!} Happy trucking{!}{enter} + RUS variant</li>
                 <li><strong>=</strong> - Current time</li>
             </ul>
 
             <blockquote>
                 <p>NOTE: This is a buttons in the upper part of the keyboard, not a Num keys.</p>
 
-                <p>NOTE: {enter} means that string will be sended immediately after execution.</p>
+                <p>NOTE: {brackets} is the button to be pressed (ex. {enter} means that string will be sended immediately after hotkey execution).</p>
             </blockquote>
         </section>
 
