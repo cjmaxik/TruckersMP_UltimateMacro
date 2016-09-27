@@ -1,10 +1,9 @@
 /*
  *
  * TruckersMP UltimateMacro
- * - by CJMAXiK
- * https://forum.truckersmp.com/index.php?/profile/1223-cjmaxik/
+ * by CJMAXiK
  *
- * Feedback? https://forum.truckersmp.com/index.php?/topic/30058-macros-for-in-game-admins/
+ * Feedback? https://forum.truckersmp.com/index.php?/topic/30058-truckersmp-ultimatemacro-macros-for-in-game-admins/
  *
 */
 
@@ -56,7 +55,7 @@ return
 return
 ::horn/::Horn Spamming (next will be ban)
 
-::admin*::   
+::admin*::
     Send % Adding("Impersonating Administration")
 return
 
@@ -175,6 +174,7 @@ return
 global Chat_Var := 0 ; Default state for Hotswitch
 
 ~F17::
+~Ctrl & ~Shift::
     ChangeChatState(true)
 return
 
@@ -186,20 +186,20 @@ return
 ~Shift & ~Tab::
     ChangeChatState(false)
 return
-    
+
 #if (Chat_Var = "0")
-    a::Numpad4        
+    a::Numpad4
     w::Numpad8
-    s::Numpad5   
+    s::Numpad5
     d::Numpad6
     e::Numpad9
     x::Numpad3
-    F15::Send {Y}/k{Space}      
+    F15::Send {Y}/k{Space}
     F16::Send {Y}/b{Space}
 #if
 
 ChangeChatState(one_direction=false) {
-    If Chat_Var = 0 
+    If Chat_Var = 0
     {
         Chat_Var := 1
         Chat_Message := "You can type in chat!"
